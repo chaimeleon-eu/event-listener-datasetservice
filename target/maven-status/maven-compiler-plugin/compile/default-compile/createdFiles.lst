@@ -1,0 +1,2 @@
+grycap\keycloak\event\listener\datasetservice\DatasetServiceEventListenerProvider.class
+grycap\keycloak\event\listener\datasetservice\DatasetServiceEventListenerProviderFactory.class
