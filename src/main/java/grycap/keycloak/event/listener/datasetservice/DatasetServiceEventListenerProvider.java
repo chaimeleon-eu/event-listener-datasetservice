@@ -118,7 +118,7 @@ public class DatasetServiceEventListenerProvider implements EventListenerProvide
     private boolean UserDatasetService(String access_token, String user_name, String user_id,  String user_groups, String new_group){
         boolean result = false;
 
-        String post_endpoint = String.format("%s/user/%s", this.datasetService_endpoint, user_name) ;
+        String post_endpoint = String.format("%s/users/%s", this.datasetService_endpoint, user_name) ;
 
         HttpPost post = new HttpPost(post_endpoint);
         String post_json = String.format( "{ \"uid\": \"%s\", \"groups\": %s }", user_id, user_groups );
